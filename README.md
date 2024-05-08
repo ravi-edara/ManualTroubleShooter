@@ -12,22 +12,25 @@ Task:
 -----
 1) Your task is to produce a solution that is able to extract the troubleshooting information from these manuals and others like them. **DONE**
 
-       I managed to extract troubleshooting information from most manuals, but encountered significant challenges with the "Treadclimber manual.pdf" due to issues with the IronOcr tool. Despite trying various standard products 
-       available in the market, I couldn't achieve satisfactory results. However, with more time and effort, I believe there's potential for improvement.
+       I managed to extract troubleshooting information from most manuals, but encountered significant
+       challenges with the "Treadclimber manual.pdf" due to issues with the IronOcr tool.
+       Despite trying various standard products available in the market, I couldn't achieve
+       satisfactory results. However, with more time and effort, I believe there's potential
+       for improvement.
 
-2) Your solution should allow for a manual to be uploaded via an API endpoint. The troubleshooting information should be included in the response of this endpoint, or in the response of another endpoint
+3) Your solution should allow for a manual to be uploaded via an API endpoint. The troubleshooting information should be included in the response of this endpoint, or in the response of another endpoint
    depending on how you choose to implement your solution. **DONE**
 
        Implemented a functionality where manuals can be uploaded via an API endpoint. The troubleshooting information is included in the
        response of this endpoint, ensuring seamless access to relevant data.
 
-3) The troubleshooting information that your API endpoint responds with should be json and should accurately represent the structure of the troubleshooting sections in the manuals. **DONE BUT NOT ACCURATELY**
+4) The troubleshooting information that your API endpoint responds with should be json and should accurately represent the structure of the troubleshooting sections in the manuals. **DONE BUT NOT ACCURATELY**
 
       While I successfully extracted data, accurately representing the structure of troubleshooting sections in JSON proved challenging.
       The limited availability of free tools and the unordered nature of the extracted data posed difficulties in achieving perfect
       accuracy within the given time frame.
 
-4) You should also specify the locations of each troubleshooting issue in the document, so that a front end application would be able to display citations of these sources  **DONE**
+5) You should also specify the locations of each troubleshooting issue in the document, so that a front end application would be able to display citations of these sources  **DONE**
     
       The response JSON includes the page number, indicating the location of each troubleshooting issue in the document.
       This ensures that front-end applications can display citations of these sources effectively.
